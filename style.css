@@ -1,8 +1,9 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat|Noto+Sans+JP|Open+Sans:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Acme|Montserrat|Noto+Sans+JP|Open+Sans:400,700&display=swap');
 
 /*font-family: 'Open Sans', sans-serif;*/
 /*font-family: 'Montserrat', sans-serif;*/
 /*font-family: 'Noto Sans JP', sans-serif;*/
+/*font-family: 'Acme', sans-serif;*/
 
 body {
   background-color: #E0E1ED;
@@ -15,19 +16,22 @@ body {
 h1 {
   color: #415A77;
   font-family: 'Open Sans', sans-serif;
+  font-weight: bold
   font-size: 24px;
 }
 
 h2 {
   color: #415A77;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 16px;
+  font-family: 'Acme', sans-serif;
+  font-size: 20px;
+  letter-spacing: 2px;
 }
 
 h3 {
   color: #778DA9;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Acme', sans-serif;
   font-size: 16px;
+  letter-spacing: 2px;
 }
 
 a {
@@ -83,6 +87,16 @@ a:hover {
   background: white;
   border: 1px solid lightgrey;
   border-radius: 4px;
+  box-shadow: 0px 0px 30px rgba(0,0,0,0.5);
+  text-align: center;
+}
+
+.cardlet {
+  margin: 10px auto;
+  padding: 20px;
+  background: white;
+  border: 1px solid lightgrey;
+  border-radius: 4px;
   box-shadow: 0px 0px 30px rgba(0,0,0,0.2);
   text-align: center;
 }
@@ -95,6 +109,12 @@ a:hover {
 .img-small {
   height: 120px;
   width: 120px;
+}
+
+.img-cardlet {
+  object-fit: cover;
+  /*  height: 150px;*/
+  width: 60%;
 }
 
 .list-inline {
